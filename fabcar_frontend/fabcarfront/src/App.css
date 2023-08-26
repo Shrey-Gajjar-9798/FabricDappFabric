@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.App {
+  /* background-color: red; */
+  width: 100%;
+  height: 100vh;
+}
+
+.bimg{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+.bimg img{
+  height: inherit;
+  width: inherit;
+  object-fit: fill;
+  opacity: 0.2;
+}
+
+.header h1{
+  font-weight: bold;
+}
+.hf{
+  color: blueviolet;
+}
+.header{
+  margin: 25px 0px 0px 70px;
+  position: absolute;
+}
+
+.formcontainer{
+  background-color: rgba(90, 76, 76,0.8);
+  width: 440px;
+  height: 340px;
+  display: flex;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 70px;
+
+}
+.formtxt{
+  color: whitesmoke;
+  font-weight: bold;
+}
+input{
+  width: 350px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: 2px solid rgb(187, 178, 178);
+  color: white;
+}
+input::placeholder{
+  color: whitesmoke;
+}
+input:focus{
+  border: 2px solid rgb(102, 30, 168);
+  outline: none;
+  color: white;
+}
+.formcontainer form{
+  display: flex;
+  width: inherit;
+  padding: 25px;
+  flex-direction: column;
+}
+.formcontainer button{
+  background-color: rgb(111, 38, 179);
+  padding: 5px;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  color: white;
+  width: 375px;
+  font-size: 16px;
+  margin-top: 50px;
+}
